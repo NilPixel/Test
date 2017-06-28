@@ -12,6 +12,51 @@
 		0F985E221F03E1320082C3AA /* WeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E211F03E1320082C3AA /* WeChatTests.swift */; };
 		0F985E2D1F03E1320082C3AA /* WeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E2C1F03E1320082C3AA /* WeChatUITests.swift */; };
 		0F985E3C1F03E3CF0082C3AA /* ZZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E3B1F03E3CF0082C3AA /* ZZTabBarController.swift */; };
+		0F985E6F1F03FA950082C3AA /* swiftgen in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E401F03FA950082C3AA /* swiftgen */; };
+		0F985E701F03FA950082C3AA /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E411F03FA950082C3AA /* CHANGELOG.md */; };
+		0F985E711F03FA950082C3AA /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E431F03FA950082C3AA /* Commander.framework */; };
+		0F985E721F03FA950082C3AA /* libswiftAppKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E441F03FA950082C3AA /* libswiftAppKit.dylib */; };
+		0F985E731F03FA950082C3AA /* libswiftCore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E451F03FA950082C3AA /* libswiftCore.dylib */; };
+		0F985E741F03FA950082C3AA /* libswiftCoreData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E461F03FA950082C3AA /* libswiftCoreData.dylib */; };
+		0F985E751F03FA950082C3AA /* libswiftCoreGraphics.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E471F03FA950082C3AA /* libswiftCoreGraphics.dylib */; };
+		0F985E761F03FA950082C3AA /* libswiftCoreImage.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E481F03FA950082C3AA /* libswiftCoreImage.dylib */; };
+		0F985E771F03FA950082C3AA /* libswiftDarwin.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E491F03FA950082C3AA /* libswiftDarwin.dylib */; };
+		0F985E781F03FA950082C3AA /* libswiftDispatch.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4A1F03FA950082C3AA /* libswiftDispatch.dylib */; };
+		0F985E791F03FA950082C3AA /* libswiftFoundation.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4B1F03FA950082C3AA /* libswiftFoundation.dylib */; };
+		0F985E7A1F03FA950082C3AA /* libswiftIOKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4C1F03FA950082C3AA /* libswiftIOKit.dylib */; };
+		0F985E7B1F03FA950082C3AA /* libswiftObjectiveC.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4D1F03FA950082C3AA /* libswiftObjectiveC.dylib */; };
+		0F985E7C1F03FA950082C3AA /* libswiftQuartzCore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4E1F03FA950082C3AA /* libswiftQuartzCore.dylib */; };
+		0F985E7D1F03FA950082C3AA /* libswiftXPC.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4F1F03FA950082C3AA /* libswiftXPC.dylib */; };
+		0F985E7E1F03FA950082C3AA /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E501F03FA950082C3AA /* PathKit.framework */; };
+		0F985E7F1F03FA950082C3AA /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E511F03FA950082C3AA /* Stencil.framework */; };
+		0F985E801F03FA950082C3AA /* StencilSwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E521F03FA950082C3AA /* StencilSwiftKit.framework */; };
+		0F985E811F03FA950082C3AA /* SwiftGenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E531F03FA950082C3AA /* SwiftGenKit.framework */; };
+		0F985E821F03FA950082C3AA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E541F03FA950082C3AA /* LICENSE */; };
+		0F985E831F03FA950082C3AA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E551F03FA950082C3AA /* README.md */; };
+		0F985E841F03FA950082C3AA /* colors-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E571F03FA950082C3AA /* colors-default.stencil */; };
+		0F985E851F03FA950082C3AA /* colors-rawValue.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E581F03FA950082C3AA /* colors-rawValue.stencil */; };
+		0F985E861F03FA950082C3AA /* colors-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E591F03FA950082C3AA /* colors-swift3.stencil */; };
+		0F985E871F03FA950082C3AA /* fonts-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5A1F03FA950082C3AA /* fonts-default.stencil */; };
+		0F985E881F03FA950082C3AA /* fonts-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5B1F03FA950082C3AA /* fonts-swift3.stencil */; };
+		0F985E891F03FA950082C3AA /* images-allvalues.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5C1F03FA950082C3AA /* images-allvalues.stencil */; };
+		0F985E8A1F03FA950082C3AA /* images-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5D1F03FA950082C3AA /* images-default.stencil */; };
+		0F985E8B1F03FA950082C3AA /* images-dot-syntax-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5E1F03FA950082C3AA /* images-dot-syntax-swift3.stencil */; };
+		0F985E8C1F03FA950082C3AA /* images-dot-syntax.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5F1F03FA950082C3AA /* images-dot-syntax.stencil */; };
+		0F985E8D1F03FA950082C3AA /* images-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E601F03FA950082C3AA /* images-swift3.stencil */; };
+		0F985E8E1F03FA950082C3AA /* storyboards-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E611F03FA950082C3AA /* storyboards-default.stencil */; };
+		0F985E8F1F03FA950082C3AA /* storyboards-lowercase.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E621F03FA950082C3AA /* storyboards-lowercase.stencil */; };
+		0F985E901F03FA950082C3AA /* storyboards-osx-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E631F03FA950082C3AA /* storyboards-osx-default.stencil */; };
+		0F985E911F03FA950082C3AA /* storyboards-osx-lowercase.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E641F03FA950082C3AA /* storyboards-osx-lowercase.stencil */; };
+		0F985E921F03FA950082C3AA /* storyboards-osx-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E651F03FA950082C3AA /* storyboards-osx-swift3.stencil */; };
+		0F985E931F03FA950082C3AA /* storyboards-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E661F03FA950082C3AA /* storyboards-swift3.stencil */; };
+		0F985E941F03FA950082C3AA /* storyboards-uppercase.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E671F03FA950082C3AA /* storyboards-uppercase.stencil */; };
+		0F985E951F03FA950082C3AA /* strings-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E681F03FA950082C3AA /* strings-default.stencil */; };
+		0F985E961F03FA950082C3AA /* strings-dot-syntax-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E691F03FA950082C3AA /* strings-dot-syntax-swift3.stencil */; };
+		0F985E971F03FA950082C3AA /* strings-dot-syntax.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E6A1F03FA950082C3AA /* strings-dot-syntax.stencil */; };
+		0F985E981F03FA950082C3AA /* strings-genstrings.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E6B1F03FA950082C3AA /* strings-genstrings.stencil */; };
+		0F985E991F03FA950082C3AA /* strings-no-comments-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E6C1F03FA950082C3AA /* strings-no-comments-swift3.stencil */; };
+		0F985E9A1F03FA950082C3AA /* strings-structured.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E6D1F03FA950082C3AA /* strings-structured.stencil */; };
+		0F985E9B1F03FA950082C3AA /* strings-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E6E1F03FA950082C3AA /* strings-swift3.stencil */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +88,51 @@
 		0F985E2C1F03E1320082C3AA /* WeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatUITests.swift; sourceTree = "<group>"; };
 		0F985E2E1F03E1320082C3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F985E3B1F03E3CF0082C3AA /* ZZTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZTabBarController.swift; sourceTree = "<group>"; };
+		0F985E401F03FA950082C3AA /* swiftgen */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = swiftgen; sourceTree = "<group>"; };
+		0F985E411F03FA950082C3AA /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		0F985E431F03FA950082C3AA /* Commander.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Commander.framework; sourceTree = "<group>"; };
+		0F985E441F03FA950082C3AA /* libswiftAppKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftAppKit.dylib; sourceTree = "<group>"; };
+		0F985E451F03FA950082C3AA /* libswiftCore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftCore.dylib; sourceTree = "<group>"; };
+		0F985E461F03FA950082C3AA /* libswiftCoreData.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftCoreData.dylib; sourceTree = "<group>"; };
+		0F985E471F03FA950082C3AA /* libswiftCoreGraphics.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftCoreGraphics.dylib; sourceTree = "<group>"; };
+		0F985E481F03FA950082C3AA /* libswiftCoreImage.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftCoreImage.dylib; sourceTree = "<group>"; };
+		0F985E491F03FA950082C3AA /* libswiftDarwin.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftDarwin.dylib; sourceTree = "<group>"; };
+		0F985E4A1F03FA950082C3AA /* libswiftDispatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftDispatch.dylib; sourceTree = "<group>"; };
+		0F985E4B1F03FA950082C3AA /* libswiftFoundation.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftFoundation.dylib; sourceTree = "<group>"; };
+		0F985E4C1F03FA950082C3AA /* libswiftIOKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftIOKit.dylib; sourceTree = "<group>"; };
+		0F985E4D1F03FA950082C3AA /* libswiftObjectiveC.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftObjectiveC.dylib; sourceTree = "<group>"; };
+		0F985E4E1F03FA950082C3AA /* libswiftQuartzCore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftQuartzCore.dylib; sourceTree = "<group>"; };
+		0F985E4F1F03FA950082C3AA /* libswiftXPC.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftXPC.dylib; sourceTree = "<group>"; };
+		0F985E501F03FA950082C3AA /* PathKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PathKit.framework; sourceTree = "<group>"; };
+		0F985E511F03FA950082C3AA /* Stencil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Stencil.framework; sourceTree = "<group>"; };
+		0F985E521F03FA950082C3AA /* StencilSwiftKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StencilSwiftKit.framework; sourceTree = "<group>"; };
+		0F985E531F03FA950082C3AA /* SwiftGenKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftGenKit.framework; sourceTree = "<group>"; };
+		0F985E541F03FA950082C3AA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0F985E551F03FA950082C3AA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0F985E571F03FA950082C3AA /* colors-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "colors-default.stencil"; sourceTree = "<group>"; };
+		0F985E581F03FA950082C3AA /* colors-rawValue.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "colors-rawValue.stencil"; sourceTree = "<group>"; };
+		0F985E591F03FA950082C3AA /* colors-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "colors-swift3.stencil"; sourceTree = "<group>"; };
+		0F985E5A1F03FA950082C3AA /* fonts-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "fonts-default.stencil"; sourceTree = "<group>"; };
+		0F985E5B1F03FA950082C3AA /* fonts-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "fonts-swift3.stencil"; sourceTree = "<group>"; };
+		0F985E5C1F03FA950082C3AA /* images-allvalues.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "images-allvalues.stencil"; sourceTree = "<group>"; };
+		0F985E5D1F03FA950082C3AA /* images-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "images-default.stencil"; sourceTree = "<group>"; };
+		0F985E5E1F03FA950082C3AA /* images-dot-syntax-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "images-dot-syntax-swift3.stencil"; sourceTree = "<group>"; };
+		0F985E5F1F03FA950082C3AA /* images-dot-syntax.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "images-dot-syntax.stencil"; sourceTree = "<group>"; };
+		0F985E601F03FA950082C3AA /* images-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "images-swift3.stencil"; sourceTree = "<group>"; };
+		0F985E611F03FA950082C3AA /* storyboards-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-default.stencil"; sourceTree = "<group>"; };
+		0F985E621F03FA950082C3AA /* storyboards-lowercase.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-lowercase.stencil"; sourceTree = "<group>"; };
+		0F985E631F03FA950082C3AA /* storyboards-osx-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-osx-default.stencil"; sourceTree = "<group>"; };
+		0F985E641F03FA950082C3AA /* storyboards-osx-lowercase.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-osx-lowercase.stencil"; sourceTree = "<group>"; };
+		0F985E651F03FA950082C3AA /* storyboards-osx-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-osx-swift3.stencil"; sourceTree = "<group>"; };
+		0F985E661F03FA950082C3AA /* storyboards-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-swift3.stencil"; sourceTree = "<group>"; };
+		0F985E671F03FA950082C3AA /* storyboards-uppercase.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-uppercase.stencil"; sourceTree = "<group>"; };
+		0F985E681F03FA950082C3AA /* strings-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-default.stencil"; sourceTree = "<group>"; };
+		0F985E691F03FA950082C3AA /* strings-dot-syntax-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-dot-syntax-swift3.stencil"; sourceTree = "<group>"; };
+		0F985E6A1F03FA950082C3AA /* strings-dot-syntax.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-dot-syntax.stencil"; sourceTree = "<group>"; };
+		0F985E6B1F03FA950082C3AA /* strings-genstrings.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-genstrings.stencil"; sourceTree = "<group>"; };
+		0F985E6C1F03FA950082C3AA /* strings-no-comments-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-no-comments-swift3.stencil"; sourceTree = "<group>"; };
+		0F985E6D1F03FA950082C3AA /* strings-structured.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-structured.stencil"; sourceTree = "<group>"; };
+		0F985E6E1F03FA950082C3AA /* strings-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-swift3.stencil"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +140,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F985E751F03FA950082C3AA /* libswiftCoreGraphics.dylib in Frameworks */,
+				0F985E811F03FA950082C3AA /* SwiftGenKit.framework in Frameworks */,
+				0F985E7F1F03FA950082C3AA /* Stencil.framework in Frameworks */,
+				0F985E791F03FA950082C3AA /* libswiftFoundation.dylib in Frameworks */,
+				0F985E7B1F03FA950082C3AA /* libswiftObjectiveC.dylib in Frameworks */,
+				0F985E761F03FA950082C3AA /* libswiftCoreImage.dylib in Frameworks */,
+				0F985E7D1F03FA950082C3AA /* libswiftXPC.dylib in Frameworks */,
+				0F985E711F03FA950082C3AA /* Commander.framework in Frameworks */,
+				0F985E7E1F03FA950082C3AA /* PathKit.framework in Frameworks */,
+				0F985E731F03FA950082C3AA /* libswiftCore.dylib in Frameworks */,
+				0F985E781F03FA950082C3AA /* libswiftDispatch.dylib in Frameworks */,
+				0F985E721F03FA950082C3AA /* libswiftAppKit.dylib in Frameworks */,
+				0F985E741F03FA950082C3AA /* libswiftCoreData.dylib in Frameworks */,
+				0F985E801F03FA950082C3AA /* StencilSwiftKit.framework in Frameworks */,
+				0F985E771F03FA950082C3AA /* libswiftDarwin.dylib in Frameworks */,
+				0F985E7C1F03FA950082C3AA /* libswiftQuartzCore.dylib in Frameworks */,
+				0F985E7A1F03FA950082C3AA /* libswiftIOKit.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				0F985E0C1F03E1320082C3AA /* AppDelegate.swift */,
+				0F985E3D1F03FA800082C3AA /* Vendors */,
 				0F985E3A1F03E3960082C3AA /* Tabbar */,
 				0F985E131F03E1320082C3AA /* Assets.xcassets */,
 				0F985E181F03E1320082C3AA /* Info.plist */,
@@ -125,6 +233,90 @@
 				0F985E3B1F03E3CF0082C3AA /* ZZTabBarController.swift */,
 			);
 			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		0F985E3D1F03FA800082C3AA /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				0F985E3E1F03FA950082C3AA /* swiftgen */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		0F985E3E1F03FA950082C3AA /* swiftgen */ = {
+			isa = PBXGroup;
+			children = (
+				0F985E3F1F03FA950082C3AA /* bin */,
+				0F985E411F03FA950082C3AA /* CHANGELOG.md */,
+				0F985E421F03FA950082C3AA /* lib */,
+				0F985E541F03FA950082C3AA /* LICENSE */,
+				0F985E551F03FA950082C3AA /* README.md */,
+				0F985E561F03FA950082C3AA /* templates */,
+			);
+			path = swiftgen;
+			sourceTree = "<group>";
+		};
+		0F985E3F1F03FA950082C3AA /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				0F985E401F03FA950082C3AA /* swiftgen */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		0F985E421F03FA950082C3AA /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0F985E431F03FA950082C3AA /* Commander.framework */,
+				0F985E441F03FA950082C3AA /* libswiftAppKit.dylib */,
+				0F985E451F03FA950082C3AA /* libswiftCore.dylib */,
+				0F985E461F03FA950082C3AA /* libswiftCoreData.dylib */,
+				0F985E471F03FA950082C3AA /* libswiftCoreGraphics.dylib */,
+				0F985E481F03FA950082C3AA /* libswiftCoreImage.dylib */,
+				0F985E491F03FA950082C3AA /* libswiftDarwin.dylib */,
+				0F985E4A1F03FA950082C3AA /* libswiftDispatch.dylib */,
+				0F985E4B1F03FA950082C3AA /* libswiftFoundation.dylib */,
+				0F985E4C1F03FA950082C3AA /* libswiftIOKit.dylib */,
+				0F985E4D1F03FA950082C3AA /* libswiftObjectiveC.dylib */,
+				0F985E4E1F03FA950082C3AA /* libswiftQuartzCore.dylib */,
+				0F985E4F1F03FA950082C3AA /* libswiftXPC.dylib */,
+				0F985E501F03FA950082C3AA /* PathKit.framework */,
+				0F985E511F03FA950082C3AA /* Stencil.framework */,
+				0F985E521F03FA950082C3AA /* StencilSwiftKit.framework */,
+				0F985E531F03FA950082C3AA /* SwiftGenKit.framework */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0F985E561F03FA950082C3AA /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				0F985E571F03FA950082C3AA /* colors-default.stencil */,
+				0F985E581F03FA950082C3AA /* colors-rawValue.stencil */,
+				0F985E591F03FA950082C3AA /* colors-swift3.stencil */,
+				0F985E5A1F03FA950082C3AA /* fonts-default.stencil */,
+				0F985E5B1F03FA950082C3AA /* fonts-swift3.stencil */,
+				0F985E5C1F03FA950082C3AA /* images-allvalues.stencil */,
+				0F985E5D1F03FA950082C3AA /* images-default.stencil */,
+				0F985E5E1F03FA950082C3AA /* images-dot-syntax-swift3.stencil */,
+				0F985E5F1F03FA950082C3AA /* images-dot-syntax.stencil */,
+				0F985E601F03FA950082C3AA /* images-swift3.stencil */,
+				0F985E611F03FA950082C3AA /* storyboards-default.stencil */,
+				0F985E621F03FA950082C3AA /* storyboards-lowercase.stencil */,
+				0F985E631F03FA950082C3AA /* storyboards-osx-default.stencil */,
+				0F985E641F03FA950082C3AA /* storyboards-osx-lowercase.stencil */,
+				0F985E651F03FA950082C3AA /* storyboards-osx-swift3.stencil */,
+				0F985E661F03FA950082C3AA /* storyboards-swift3.stencil */,
+				0F985E671F03FA950082C3AA /* storyboards-uppercase.stencil */,
+				0F985E681F03FA950082C3AA /* strings-default.stencil */,
+				0F985E691F03FA950082C3AA /* strings-dot-syntax-swift3.stencil */,
+				0F985E6A1F03FA950082C3AA /* strings-dot-syntax.stencil */,
+				0F985E6B1F03FA950082C3AA /* strings-genstrings.stencil */,
+				0F985E6C1F03FA950082C3AA /* strings-no-comments-swift3.stencil */,
+				0F985E6D1F03FA950082C3AA /* strings-structured.stencil */,
+				0F985E6E1F03FA950082C3AA /* strings-swift3.stencil */,
+			);
+			path = templates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +430,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F985E921F03FA950082C3AA /* storyboards-osx-swift3.stencil in Resources */,
+				0F985E8D1F03FA950082C3AA /* images-swift3.stencil in Resources */,
+				0F985E861F03FA950082C3AA /* colors-swift3.stencil in Resources */,
+				0F985E8B1F03FA950082C3AA /* images-dot-syntax-swift3.stencil in Resources */,
+				0F985E9B1F03FA950082C3AA /* strings-swift3.stencil in Resources */,
+				0F985E951F03FA950082C3AA /* strings-default.stencil in Resources */,
+				0F985E981F03FA950082C3AA /* strings-genstrings.stencil in Resources */,
+				0F985E821F03FA950082C3AA /* LICENSE in Resources */,
+				0F985E961F03FA950082C3AA /* strings-dot-syntax-swift3.stencil in Resources */,
+				0F985E901F03FA950082C3AA /* storyboards-osx-default.stencil in Resources */,
+				0F985E8C1F03FA950082C3AA /* images-dot-syntax.stencil in Resources */,
 				0F985E141F03E1320082C3AA /* Assets.xcassets in Resources */,
+				0F985E881F03FA950082C3AA /* fonts-swift3.stencil in Resources */,
+				0F985E8A1F03FA950082C3AA /* images-default.stencil in Resources */,
+				0F985E841F03FA950082C3AA /* colors-default.stencil in Resources */,
+				0F985E971F03FA950082C3AA /* strings-dot-syntax.stencil in Resources */,
+				0F985E891F03FA950082C3AA /* images-allvalues.stencil in Resources */,
+				0F985E9A1F03FA950082C3AA /* strings-structured.stencil in Resources */,
+				0F985E851F03FA950082C3AA /* colors-rawValue.stencil in Resources */,
+				0F985E871F03FA950082C3AA /* fonts-default.stencil in Resources */,
+				0F985E941F03FA950082C3AA /* storyboards-uppercase.stencil in Resources */,
+				0F985E931F03FA950082C3AA /* storyboards-swift3.stencil in Resources */,
+				0F985E8F1F03FA950082C3AA /* storyboards-lowercase.stencil in Resources */,
+				0F985E6F1F03FA950082C3AA /* swiftgen in Resources */,
+				0F985E8E1F03FA950082C3AA /* storyboards-default.stencil in Resources */,
+				0F985E911F03FA950082C3AA /* storyboards-osx-lowercase.stencil in Resources */,
+				0F985E991F03FA950082C3AA /* strings-no-comments-swift3.stencil in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +482,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F985E0D1F03E1320082C3AA /* AppDelegate.swift in Sources */,
+				0F985E701F03FA950082C3AA /* CHANGELOG.md in Sources */,
+				0F985E831F03FA950082C3AA /* README.md in Sources */,
 				0F985E3C1F03E3CF0082C3AA /* ZZTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,8 +620,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9AH4A4F7A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat/Vendors/swiftgen/lib",
+				);
 				INFOPLIST_FILE = WeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat/Vendors/swiftgen/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ZZ.WeChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -414,8 +642,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9AH4A4F7A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat/Vendors/swiftgen/lib",
+				);
 				INFOPLIST_FILE = WeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat/Vendors/swiftgen/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ZZ.WeChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -500,6 +736,7 @@
 				0F985E331F03E1320082C3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F985E341F03E1320082C3AA /* Build configuration list for PBXNativeTarget "WeChatTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +745,7 @@
 				0F985E361F03E1320082C3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F985E371F03E1320082C3AA /* Build configuration list for PBXNativeTarget "WeChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +754,7 @@
 				0F985E391F03E1320082C3AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
