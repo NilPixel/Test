@@ -12,51 +12,33 @@
 		0F985E221F03E1320082C3AA /* WeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E211F03E1320082C3AA /* WeChatTests.swift */; };
 		0F985E2D1F03E1320082C3AA /* WeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E2C1F03E1320082C3AA /* WeChatUITests.swift */; };
 		0F985E3C1F03E3CF0082C3AA /* ZZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E3B1F03E3CF0082C3AA /* ZZTabBarController.swift */; };
-		0F985E6F1F03FA950082C3AA /* swiftgen in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E401F03FA950082C3AA /* swiftgen */; };
-		0F985E701F03FA950082C3AA /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E411F03FA950082C3AA /* CHANGELOG.md */; };
-		0F985E711F03FA950082C3AA /* Commander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E431F03FA950082C3AA /* Commander.framework */; };
-		0F985E721F03FA950082C3AA /* libswiftAppKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E441F03FA950082C3AA /* libswiftAppKit.dylib */; };
-		0F985E731F03FA950082C3AA /* libswiftCore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E451F03FA950082C3AA /* libswiftCore.dylib */; };
-		0F985E741F03FA950082C3AA /* libswiftCoreData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E461F03FA950082C3AA /* libswiftCoreData.dylib */; };
-		0F985E751F03FA950082C3AA /* libswiftCoreGraphics.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E471F03FA950082C3AA /* libswiftCoreGraphics.dylib */; };
-		0F985E761F03FA950082C3AA /* libswiftCoreImage.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E481F03FA950082C3AA /* libswiftCoreImage.dylib */; };
-		0F985E771F03FA950082C3AA /* libswiftDarwin.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E491F03FA950082C3AA /* libswiftDarwin.dylib */; };
-		0F985E781F03FA950082C3AA /* libswiftDispatch.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4A1F03FA950082C3AA /* libswiftDispatch.dylib */; };
-		0F985E791F03FA950082C3AA /* libswiftFoundation.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4B1F03FA950082C3AA /* libswiftFoundation.dylib */; };
-		0F985E7A1F03FA950082C3AA /* libswiftIOKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4C1F03FA950082C3AA /* libswiftIOKit.dylib */; };
-		0F985E7B1F03FA950082C3AA /* libswiftObjectiveC.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4D1F03FA950082C3AA /* libswiftObjectiveC.dylib */; };
-		0F985E7C1F03FA950082C3AA /* libswiftQuartzCore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4E1F03FA950082C3AA /* libswiftQuartzCore.dylib */; };
-		0F985E7D1F03FA950082C3AA /* libswiftXPC.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E4F1F03FA950082C3AA /* libswiftXPC.dylib */; };
-		0F985E7E1F03FA950082C3AA /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E501F03FA950082C3AA /* PathKit.framework */; };
-		0F985E7F1F03FA950082C3AA /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E511F03FA950082C3AA /* Stencil.framework */; };
-		0F985E801F03FA950082C3AA /* StencilSwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E521F03FA950082C3AA /* StencilSwiftKit.framework */; };
-		0F985E811F03FA950082C3AA /* SwiftGenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F985E531F03FA950082C3AA /* SwiftGenKit.framework */; };
-		0F985E821F03FA950082C3AA /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E541F03FA950082C3AA /* LICENSE */; };
-		0F985E831F03FA950082C3AA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E551F03FA950082C3AA /* README.md */; };
-		0F985E841F03FA950082C3AA /* colors-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E571F03FA950082C3AA /* colors-default.stencil */; };
-		0F985E851F03FA950082C3AA /* colors-rawValue.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E581F03FA950082C3AA /* colors-rawValue.stencil */; };
-		0F985E861F03FA950082C3AA /* colors-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E591F03FA950082C3AA /* colors-swift3.stencil */; };
-		0F985E871F03FA950082C3AA /* fonts-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5A1F03FA950082C3AA /* fonts-default.stencil */; };
-		0F985E881F03FA950082C3AA /* fonts-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5B1F03FA950082C3AA /* fonts-swift3.stencil */; };
-		0F985E891F03FA950082C3AA /* images-allvalues.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5C1F03FA950082C3AA /* images-allvalues.stencil */; };
-		0F985E8A1F03FA950082C3AA /* images-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5D1F03FA950082C3AA /* images-default.stencil */; };
-		0F985E8B1F03FA950082C3AA /* images-dot-syntax-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5E1F03FA950082C3AA /* images-dot-syntax-swift3.stencil */; };
-		0F985E8C1F03FA950082C3AA /* images-dot-syntax.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E5F1F03FA950082C3AA /* images-dot-syntax.stencil */; };
-		0F985E8D1F03FA950082C3AA /* images-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E601F03FA950082C3AA /* images-swift3.stencil */; };
-		0F985E8E1F03FA950082C3AA /* storyboards-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E611F03FA950082C3AA /* storyboards-default.stencil */; };
-		0F985E8F1F03FA950082C3AA /* storyboards-lowercase.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E621F03FA950082C3AA /* storyboards-lowercase.stencil */; };
-		0F985E901F03FA950082C3AA /* storyboards-osx-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E631F03FA950082C3AA /* storyboards-osx-default.stencil */; };
-		0F985E911F03FA950082C3AA /* storyboards-osx-lowercase.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E641F03FA950082C3AA /* storyboards-osx-lowercase.stencil */; };
-		0F985E921F03FA950082C3AA /* storyboards-osx-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E651F03FA950082C3AA /* storyboards-osx-swift3.stencil */; };
-		0F985E931F03FA950082C3AA /* storyboards-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E661F03FA950082C3AA /* storyboards-swift3.stencil */; };
-		0F985E941F03FA950082C3AA /* storyboards-uppercase.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E671F03FA950082C3AA /* storyboards-uppercase.stencil */; };
-		0F985E951F03FA950082C3AA /* strings-default.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E681F03FA950082C3AA /* strings-default.stencil */; };
-		0F985E961F03FA950082C3AA /* strings-dot-syntax-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E691F03FA950082C3AA /* strings-dot-syntax-swift3.stencil */; };
-		0F985E971F03FA950082C3AA /* strings-dot-syntax.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E6A1F03FA950082C3AA /* strings-dot-syntax.stencil */; };
-		0F985E981F03FA950082C3AA /* strings-genstrings.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E6B1F03FA950082C3AA /* strings-genstrings.stencil */; };
-		0F985E991F03FA950082C3AA /* strings-no-comments-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E6C1F03FA950082C3AA /* strings-no-comments-swift3.stencil */; };
-		0F985E9A1F03FA950082C3AA /* strings-structured.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E6D1F03FA950082C3AA /* strings-structured.stencil */; };
-		0F985E9B1F03FA950082C3AA /* strings-swift3.stencil in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E6E1F03FA950082C3AA /* strings-swift3.stencil */; };
+		0FD9C3331F04DBCC007D3666 /* ZZUIImage+Wechat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9C3321F04DBCC007D3666 /* ZZUIImage+Wechat.swift */; };
+		0FD9C3361F04DCC3007D3666 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD9C3351F04DCC3007D3666 /* Media.xcassets */; };
+		0FD9C34C1F04F21A007D3666 /* ZZWeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9C34B1F04F21A007D3666 /* ZZWeChatViewController.swift */; };
+		0FD9C34E1F04F63F007D3666 /* ZZUIColor+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9C34D1F04F63F007D3666 /* ZZUIColor+WeChat.swift */; };
+		0FD9C3501F0500AD007D3666 /* TimedSilver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C34F1F0500AD007D3666 /* TimedSilver.framework */; };
+		0FD9C3521F05040F007D3666 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3511F05040F007D3666 /* Alamofire.framework */; };
+		0FD9C3671F05041B007D3666 /* BSGridCollectionViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3531F05041B007D3666 /* BSGridCollectionViewLayout.framework */; };
+		0FD9C3681F05041B007D3666 /* BSImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3541F05041B007D3666 /* BSImagePicker.framework */; };
+		0FD9C3691F05041B007D3666 /* Cent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3551F05041B007D3666 /* Cent.framework */; };
+		0FD9C36A1F05041B007D3666 /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3561F05041B007D3666 /* Dollar.framework */; };
+		0FD9C36B1F05041B007D3666 /* INTULocationManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3571F05041B007D3666 /* INTULocationManager.framework */; };
+		0FD9C36C1F05041B007D3666 /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3581F05041B007D3666 /* KeychainAccess.framework */; };
+		0FD9C36D1F05041B007D3666 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3591F05041B007D3666 /* Kingfisher.framework */; };
+		0FD9C36E1F05041B007D3666 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35A1F05041B007D3666 /* ObjectMapper.framework */; };
+		0FD9C36F1F05041B007D3666 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35B1F05041B007D3666 /* RxBlocking.framework */; };
+		0FD9C3701F05041B007D3666 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35C1F05041B007D3666 /* RxCocoa.framework */; };
+		0FD9C3711F05041B007D3666 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35D1F05041B007D3666 /* RxSwift.framework */; };
+		0FD9C3721F05041B007D3666 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35E1F05041B007D3666 /* SnapKit.framework */; };
+		0FD9C3731F05041B007D3666 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35F1F05041B007D3666 /* SVProgressHUD.framework */; };
+		0FD9C3741F05041B007D3666 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3601F05041B007D3666 /* SwiftyJSON.framework */; };
+		0FD9C3751F05041B007D3666 /* TSVoiceConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3611F05041B007D3666 /* TSVoiceConverter.framework */; };
+		0FD9C3761F05041B007D3666 /* UIColor_Hex_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3621F05041B007D3666 /* UIColor_Hex_Swift.framework */; };
+		0FD9C3771F05041B007D3666 /* UIImageViewModeScaleAspect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3631F05041B007D3666 /* UIImageViewModeScaleAspect.framework */; };
+		0FD9C3781F05041B007D3666 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3641F05041B007D3666 /* XCGLogger.framework */; };
+		0FD9C3791F05041B007D3666 /* XLActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3651F05041B007D3666 /* XLActionController.framework */; };
+		0FD9C37A1F05041B007D3666 /* YYText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3661F05041B007D3666 /* YYText.framework */; };
+		F6475B15F4168E709ABC5907 /* Pods_WeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34656C71F27B432FDE66D631 /* Pods_WeChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +61,7 @@
 /* Begin PBXFileReference section */
 		0F985E091F03E1320082C3AA /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F985E0C1F03E1320082C3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F985E131F03E1320082C3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F985E131F03E1320082C3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		0F985E181F03E1320082C3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F985E1D1F03E1320082C3AA /* WeChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F985E211F03E1320082C3AA /* WeChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatTests.swift; sourceTree = "<group>"; };
@@ -88,51 +70,35 @@
 		0F985E2C1F03E1320082C3AA /* WeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatUITests.swift; sourceTree = "<group>"; };
 		0F985E2E1F03E1320082C3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F985E3B1F03E3CF0082C3AA /* ZZTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZTabBarController.swift; sourceTree = "<group>"; };
-		0F985E401F03FA950082C3AA /* swiftgen */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = swiftgen; sourceTree = "<group>"; };
-		0F985E411F03FA950082C3AA /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
-		0F985E431F03FA950082C3AA /* Commander.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Commander.framework; sourceTree = "<group>"; };
-		0F985E441F03FA950082C3AA /* libswiftAppKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftAppKit.dylib; sourceTree = "<group>"; };
-		0F985E451F03FA950082C3AA /* libswiftCore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftCore.dylib; sourceTree = "<group>"; };
-		0F985E461F03FA950082C3AA /* libswiftCoreData.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftCoreData.dylib; sourceTree = "<group>"; };
-		0F985E471F03FA950082C3AA /* libswiftCoreGraphics.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftCoreGraphics.dylib; sourceTree = "<group>"; };
-		0F985E481F03FA950082C3AA /* libswiftCoreImage.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftCoreImage.dylib; sourceTree = "<group>"; };
-		0F985E491F03FA950082C3AA /* libswiftDarwin.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftDarwin.dylib; sourceTree = "<group>"; };
-		0F985E4A1F03FA950082C3AA /* libswiftDispatch.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftDispatch.dylib; sourceTree = "<group>"; };
-		0F985E4B1F03FA950082C3AA /* libswiftFoundation.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftFoundation.dylib; sourceTree = "<group>"; };
-		0F985E4C1F03FA950082C3AA /* libswiftIOKit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftIOKit.dylib; sourceTree = "<group>"; };
-		0F985E4D1F03FA950082C3AA /* libswiftObjectiveC.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftObjectiveC.dylib; sourceTree = "<group>"; };
-		0F985E4E1F03FA950082C3AA /* libswiftQuartzCore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftQuartzCore.dylib; sourceTree = "<group>"; };
-		0F985E4F1F03FA950082C3AA /* libswiftXPC.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libswiftXPC.dylib; sourceTree = "<group>"; };
-		0F985E501F03FA950082C3AA /* PathKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PathKit.framework; sourceTree = "<group>"; };
-		0F985E511F03FA950082C3AA /* Stencil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Stencil.framework; sourceTree = "<group>"; };
-		0F985E521F03FA950082C3AA /* StencilSwiftKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StencilSwiftKit.framework; sourceTree = "<group>"; };
-		0F985E531F03FA950082C3AA /* SwiftGenKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftGenKit.framework; sourceTree = "<group>"; };
-		0F985E541F03FA950082C3AA /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		0F985E551F03FA950082C3AA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0F985E571F03FA950082C3AA /* colors-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "colors-default.stencil"; sourceTree = "<group>"; };
-		0F985E581F03FA950082C3AA /* colors-rawValue.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "colors-rawValue.stencil"; sourceTree = "<group>"; };
-		0F985E591F03FA950082C3AA /* colors-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "colors-swift3.stencil"; sourceTree = "<group>"; };
-		0F985E5A1F03FA950082C3AA /* fonts-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "fonts-default.stencil"; sourceTree = "<group>"; };
-		0F985E5B1F03FA950082C3AA /* fonts-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "fonts-swift3.stencil"; sourceTree = "<group>"; };
-		0F985E5C1F03FA950082C3AA /* images-allvalues.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "images-allvalues.stencil"; sourceTree = "<group>"; };
-		0F985E5D1F03FA950082C3AA /* images-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "images-default.stencil"; sourceTree = "<group>"; };
-		0F985E5E1F03FA950082C3AA /* images-dot-syntax-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "images-dot-syntax-swift3.stencil"; sourceTree = "<group>"; };
-		0F985E5F1F03FA950082C3AA /* images-dot-syntax.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "images-dot-syntax.stencil"; sourceTree = "<group>"; };
-		0F985E601F03FA950082C3AA /* images-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "images-swift3.stencil"; sourceTree = "<group>"; };
-		0F985E611F03FA950082C3AA /* storyboards-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-default.stencil"; sourceTree = "<group>"; };
-		0F985E621F03FA950082C3AA /* storyboards-lowercase.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-lowercase.stencil"; sourceTree = "<group>"; };
-		0F985E631F03FA950082C3AA /* storyboards-osx-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-osx-default.stencil"; sourceTree = "<group>"; };
-		0F985E641F03FA950082C3AA /* storyboards-osx-lowercase.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-osx-lowercase.stencil"; sourceTree = "<group>"; };
-		0F985E651F03FA950082C3AA /* storyboards-osx-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-osx-swift3.stencil"; sourceTree = "<group>"; };
-		0F985E661F03FA950082C3AA /* storyboards-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-swift3.stencil"; sourceTree = "<group>"; };
-		0F985E671F03FA950082C3AA /* storyboards-uppercase.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "storyboards-uppercase.stencil"; sourceTree = "<group>"; };
-		0F985E681F03FA950082C3AA /* strings-default.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-default.stencil"; sourceTree = "<group>"; };
-		0F985E691F03FA950082C3AA /* strings-dot-syntax-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-dot-syntax-swift3.stencil"; sourceTree = "<group>"; };
-		0F985E6A1F03FA950082C3AA /* strings-dot-syntax.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-dot-syntax.stencil"; sourceTree = "<group>"; };
-		0F985E6B1F03FA950082C3AA /* strings-genstrings.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-genstrings.stencil"; sourceTree = "<group>"; };
-		0F985E6C1F03FA950082C3AA /* strings-no-comments-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-no-comments-swift3.stencil"; sourceTree = "<group>"; };
-		0F985E6D1F03FA950082C3AA /* strings-structured.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-structured.stencil"; sourceTree = "<group>"; };
-		0F985E6E1F03FA950082C3AA /* strings-swift3.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "strings-swift3.stencil"; sourceTree = "<group>"; };
+		0FD9C3321F04DBCC007D3666 /* ZZUIImage+Wechat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZZUIImage+Wechat.swift"; sourceTree = "<group>"; };
+		0FD9C3351F04DCC3007D3666 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		0FD9C34B1F04F21A007D3666 /* ZZWeChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZWeChatViewController.swift; sourceTree = "<group>"; };
+		0FD9C34D1F04F63F007D3666 /* ZZUIColor+WeChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZZUIColor+WeChat.swift"; sourceTree = "<group>"; };
+		0FD9C34F1F0500AD007D3666 /* TimedSilver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TimedSilver.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/TimedSilver/TimedSilver.framework"; sourceTree = "<group>"; };
+		0FD9C3511F05040F007D3666 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		0FD9C3531F05041B007D3666 /* BSGridCollectionViewLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BSGridCollectionViewLayout.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework"; sourceTree = "<group>"; };
+		0FD9C3541F05041B007D3666 /* BSImagePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BSImagePicker.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/BSImagePicker/BSImagePicker.framework"; sourceTree = "<group>"; };
+		0FD9C3551F05041B007D3666 /* Cent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cent.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/Cent/Cent.framework"; sourceTree = "<group>"; };
+		0FD9C3561F05041B007D3666 /* Dollar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dollar.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/Dollar/Dollar.framework"; sourceTree = "<group>"; };
+		0FD9C3571F05041B007D3666 /* INTULocationManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = INTULocationManager.framework; path = "Pods/../build/Debug-iphoneos/INTULocationManager/INTULocationManager.framework"; sourceTree = "<group>"; };
+		0FD9C3581F05041B007D3666 /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/KeychainAccess/KeychainAccess.framework"; sourceTree = "<group>"; };
+		0FD9C3591F05041B007D3666 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework"; sourceTree = "<group>"; };
+		0FD9C35A1F05041B007D3666 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/ObjectMapper/ObjectMapper.framework"; sourceTree = "<group>"; };
+		0FD9C35B1F05041B007D3666 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/RxBlocking/RxBlocking.framework"; sourceTree = "<group>"; };
+		0FD9C35C1F05041B007D3666 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework"; sourceTree = "<group>"; };
+		0FD9C35D1F05041B007D3666 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework"; sourceTree = "<group>"; };
+		0FD9C35E1F05041B007D3666 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
+		0FD9C35F1F05041B007D3666 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = "Pods/../build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework"; sourceTree = "<group>"; };
+		0FD9C3601F05041B007D3666 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		0FD9C3611F05041B007D3666 /* TSVoiceConverter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TSVoiceConverter.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/TSVoiceConverter/TSVoiceConverter.framework"; sourceTree = "<group>"; };
+		0FD9C3621F05041B007D3666 /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIColor_Hex_Swift.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/UIColor_Hex_Swift/UIColor_Hex_Swift.framework"; sourceTree = "<group>"; };
+		0FD9C3631F05041B007D3666 /* UIImageViewModeScaleAspect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIImageViewModeScaleAspect.framework; path = "Pods/../build/Debug-iphoneos/UIImageViewModeScaleAspect/UIImageViewModeScaleAspect.framework"; sourceTree = "<group>"; };
+		0FD9C3641F05041B007D3666 /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/XCGLogger/XCGLogger.framework"; sourceTree = "<group>"; };
+		0FD9C3651F05041B007D3666 /* XLActionController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XLActionController.framework; path = "../../Library/Developer/Xcode/DerivedData/WeChat-fdyvahnttwmgclhavnepbrshobww/Build/Products/Debug-iphonesimulator/XLActionController/XLActionController.framework"; sourceTree = "<group>"; };
+		0FD9C3661F05041B007D3666 /* YYText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YYText.framework; path = "Pods/../build/Debug-iphoneos/YYText/YYText.framework"; sourceTree = "<group>"; };
+		34656C71F27B432FDE66D631 /* Pods_WeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77A03C288BDE9008263F2CD /* Pods-WeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChat/Pods-WeChat.release.xcconfig"; sourceTree = "<group>"; };
+		C9DA479E2F701164CFAE4F6A /* Pods-WeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeChat/Pods-WeChat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,23 +106,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F985E751F03FA950082C3AA /* libswiftCoreGraphics.dylib in Frameworks */,
-				0F985E811F03FA950082C3AA /* SwiftGenKit.framework in Frameworks */,
-				0F985E7F1F03FA950082C3AA /* Stencil.framework in Frameworks */,
-				0F985E791F03FA950082C3AA /* libswiftFoundation.dylib in Frameworks */,
-				0F985E7B1F03FA950082C3AA /* libswiftObjectiveC.dylib in Frameworks */,
-				0F985E761F03FA950082C3AA /* libswiftCoreImage.dylib in Frameworks */,
-				0F985E7D1F03FA950082C3AA /* libswiftXPC.dylib in Frameworks */,
-				0F985E711F03FA950082C3AA /* Commander.framework in Frameworks */,
-				0F985E7E1F03FA950082C3AA /* PathKit.framework in Frameworks */,
-				0F985E731F03FA950082C3AA /* libswiftCore.dylib in Frameworks */,
-				0F985E781F03FA950082C3AA /* libswiftDispatch.dylib in Frameworks */,
-				0F985E721F03FA950082C3AA /* libswiftAppKit.dylib in Frameworks */,
-				0F985E741F03FA950082C3AA /* libswiftCoreData.dylib in Frameworks */,
-				0F985E801F03FA950082C3AA /* StencilSwiftKit.framework in Frameworks */,
-				0F985E771F03FA950082C3AA /* libswiftDarwin.dylib in Frameworks */,
-				0F985E7C1F03FA950082C3AA /* libswiftQuartzCore.dylib in Frameworks */,
-				0F985E7A1F03FA950082C3AA /* libswiftIOKit.dylib in Frameworks */,
+				0FD9C3671F05041B007D3666 /* BSGridCollectionViewLayout.framework in Frameworks */,
+				0FD9C3681F05041B007D3666 /* BSImagePicker.framework in Frameworks */,
+				0FD9C3691F05041B007D3666 /* Cent.framework in Frameworks */,
+				0FD9C36A1F05041B007D3666 /* Dollar.framework in Frameworks */,
+				0FD9C36B1F05041B007D3666 /* INTULocationManager.framework in Frameworks */,
+				0FD9C36C1F05041B007D3666 /* KeychainAccess.framework in Frameworks */,
+				0FD9C36D1F05041B007D3666 /* Kingfisher.framework in Frameworks */,
+				0FD9C36E1F05041B007D3666 /* ObjectMapper.framework in Frameworks */,
+				0FD9C36F1F05041B007D3666 /* RxBlocking.framework in Frameworks */,
+				0FD9C3701F05041B007D3666 /* RxCocoa.framework in Frameworks */,
+				0FD9C3711F05041B007D3666 /* RxSwift.framework in Frameworks */,
+				0FD9C3721F05041B007D3666 /* SnapKit.framework in Frameworks */,
+				0FD9C3731F05041B007D3666 /* SVProgressHUD.framework in Frameworks */,
+				0FD9C3741F05041B007D3666 /* SwiftyJSON.framework in Frameworks */,
+				0FD9C3751F05041B007D3666 /* TSVoiceConverter.framework in Frameworks */,
+				0FD9C3761F05041B007D3666 /* UIColor_Hex_Swift.framework in Frameworks */,
+				0FD9C3771F05041B007D3666 /* UIImageViewModeScaleAspect.framework in Frameworks */,
+				0FD9C3781F05041B007D3666 /* XCGLogger.framework in Frameworks */,
+				0FD9C3791F05041B007D3666 /* XLActionController.framework in Frameworks */,
+				0FD9C37A1F05041B007D3666 /* YYText.framework in Frameworks */,
+				0FD9C3521F05040F007D3666 /* Alamofire.framework in Frameworks */,
+				0FD9C3501F0500AD007D3666 /* TimedSilver.framework in Frameworks */,
+				F6475B15F4168E709ABC5907 /* Pods_WeChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +156,8 @@
 				0F985E201F03E1320082C3AA /* WeChatTests */,
 				0F985E2B1F03E1320082C3AA /* WeChatUITests */,
 				0F985E0A1F03E1320082C3AA /* Products */,
+				E967C7C3FB478C5B6E90213B /* Pods */,
+				7F9211873C65FFF200F74964 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -201,9 +175,14 @@
 			isa = PBXGroup;
 			children = (
 				0F985E0C1F03E1320082C3AA /* AppDelegate.swift */,
+				0FD9C33A1F04F055007D3666 /* Wechat */,
+				0FD9C3391F04F055007D3666 /* Contacts */,
+				0FD9C3381F04F055007D3666 /* Discover */,
+				0FD9C3371F04F055007D3666 /* Me */,
+				0FD9C3341F04DCA3007D3666 /* Resource */,
+				0FD9C32F1F04D875007D3666 /* Extension */,
 				0F985E3D1F03FA800082C3AA /* Vendors */,
 				0F985E3A1F03E3960082C3AA /* Tabbar */,
-				0F985E131F03E1320082C3AA /* Assets.xcassets */,
 				0F985E181F03E1320082C3AA /* Info.plist */,
 			);
 			path = WeChat;
@@ -238,85 +217,222 @@
 		0F985E3D1F03FA800082C3AA /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
-				0F985E3E1F03FA950082C3AA /* swiftgen */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
 		};
-		0F985E3E1F03FA950082C3AA /* swiftgen */ = {
+		0FD9C32F1F04D875007D3666 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				0F985E3F1F03FA950082C3AA /* bin */,
-				0F985E411F03FA950082C3AA /* CHANGELOG.md */,
-				0F985E421F03FA950082C3AA /* lib */,
-				0F985E541F03FA950082C3AA /* LICENSE */,
-				0F985E551F03FA950082C3AA /* README.md */,
-				0F985E561F03FA950082C3AA /* templates */,
+				0FD9C3321F04DBCC007D3666 /* ZZUIImage+Wechat.swift */,
+				0FD9C34D1F04F63F007D3666 /* ZZUIColor+WeChat.swift */,
 			);
-			path = swiftgen;
+			path = Extension;
 			sourceTree = "<group>";
 		};
-		0F985E3F1F03FA950082C3AA /* bin */ = {
+		0FD9C3341F04DCA3007D3666 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				0F985E401F03FA950082C3AA /* swiftgen */,
+				0F985E131F03E1320082C3AA /* Assets.xcassets */,
+				0FD9C3351F04DCC3007D3666 /* Media.xcassets */,
 			);
-			path = bin;
+			path = Resource;
 			sourceTree = "<group>";
 		};
-		0F985E421F03FA950082C3AA /* lib */ = {
+		0FD9C3371F04F055007D3666 /* Me */ = {
 			isa = PBXGroup;
 			children = (
-				0F985E431F03FA950082C3AA /* Commander.framework */,
-				0F985E441F03FA950082C3AA /* libswiftAppKit.dylib */,
-				0F985E451F03FA950082C3AA /* libswiftCore.dylib */,
-				0F985E461F03FA950082C3AA /* libswiftCoreData.dylib */,
-				0F985E471F03FA950082C3AA /* libswiftCoreGraphics.dylib */,
-				0F985E481F03FA950082C3AA /* libswiftCoreImage.dylib */,
-				0F985E491F03FA950082C3AA /* libswiftDarwin.dylib */,
-				0F985E4A1F03FA950082C3AA /* libswiftDispatch.dylib */,
-				0F985E4B1F03FA950082C3AA /* libswiftFoundation.dylib */,
-				0F985E4C1F03FA950082C3AA /* libswiftIOKit.dylib */,
-				0F985E4D1F03FA950082C3AA /* libswiftObjectiveC.dylib */,
-				0F985E4E1F03FA950082C3AA /* libswiftQuartzCore.dylib */,
-				0F985E4F1F03FA950082C3AA /* libswiftXPC.dylib */,
-				0F985E501F03FA950082C3AA /* PathKit.framework */,
-				0F985E511F03FA950082C3AA /* Stencil.framework */,
-				0F985E521F03FA950082C3AA /* StencilSwiftKit.framework */,
-				0F985E531F03FA950082C3AA /* SwiftGenKit.framework */,
+				0FD9C3471F04F196007D3666 /* Controller */,
+				0FD9C3481F04F196007D3666 /* Model */,
+				0FD9C3491F04F196007D3666 /* View */,
+				0FD9C34A1F04F196007D3666 /* ViewModel */,
 			);
-			path = lib;
+			path = Me;
 			sourceTree = "<group>";
 		};
-		0F985E561F03FA950082C3AA /* templates */ = {
+		0FD9C3381F04F055007D3666 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				0F985E571F03FA950082C3AA /* colors-default.stencil */,
-				0F985E581F03FA950082C3AA /* colors-rawValue.stencil */,
-				0F985E591F03FA950082C3AA /* colors-swift3.stencil */,
-				0F985E5A1F03FA950082C3AA /* fonts-default.stencil */,
-				0F985E5B1F03FA950082C3AA /* fonts-swift3.stencil */,
-				0F985E5C1F03FA950082C3AA /* images-allvalues.stencil */,
-				0F985E5D1F03FA950082C3AA /* images-default.stencil */,
-				0F985E5E1F03FA950082C3AA /* images-dot-syntax-swift3.stencil */,
-				0F985E5F1F03FA950082C3AA /* images-dot-syntax.stencil */,
-				0F985E601F03FA950082C3AA /* images-swift3.stencil */,
-				0F985E611F03FA950082C3AA /* storyboards-default.stencil */,
-				0F985E621F03FA950082C3AA /* storyboards-lowercase.stencil */,
-				0F985E631F03FA950082C3AA /* storyboards-osx-default.stencil */,
-				0F985E641F03FA950082C3AA /* storyboards-osx-lowercase.stencil */,
-				0F985E651F03FA950082C3AA /* storyboards-osx-swift3.stencil */,
-				0F985E661F03FA950082C3AA /* storyboards-swift3.stencil */,
-				0F985E671F03FA950082C3AA /* storyboards-uppercase.stencil */,
-				0F985E681F03FA950082C3AA /* strings-default.stencil */,
-				0F985E691F03FA950082C3AA /* strings-dot-syntax-swift3.stencil */,
-				0F985E6A1F03FA950082C3AA /* strings-dot-syntax.stencil */,
-				0F985E6B1F03FA950082C3AA /* strings-genstrings.stencil */,
-				0F985E6C1F03FA950082C3AA /* strings-no-comments-swift3.stencil */,
-				0F985E6D1F03FA950082C3AA /* strings-structured.stencil */,
-				0F985E6E1F03FA950082C3AA /* strings-swift3.stencil */,
+				0FD9C3431F04F18A007D3666 /* Controller */,
+				0FD9C3441F04F18A007D3666 /* Model */,
+				0FD9C3451F04F18A007D3666 /* View */,
+				0FD9C3461F04F18A007D3666 /* ViewModel */,
 			);
-			path = templates;
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		0FD9C3391F04F055007D3666 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				0FD9C33F1F04F175007D3666 /* Controller */,
+				0FD9C3401F04F175007D3666 /* Model */,
+				0FD9C3411F04F175007D3666 /* View */,
+				0FD9C3421F04F175007D3666 /* ViewModel */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		0FD9C33A1F04F055007D3666 /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				0FD9C33B1F04F145007D3666 /* Model */,
+				0FD9C33C1F04F145007D3666 /* ViewModel */,
+				0FD9C33D1F04F145007D3666 /* View */,
+				0FD9C33E1F04F145007D3666 /* Controller */,
+			);
+			path = Wechat;
+			sourceTree = "<group>";
+		};
+		0FD9C33B1F04F145007D3666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FD9C33C1F04F145007D3666 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FD9C33D1F04F145007D3666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FD9C33E1F04F145007D3666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0FD9C34B1F04F21A007D3666 /* ZZWeChatViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0FD9C33F1F04F175007D3666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0FD9C3401F04F175007D3666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FD9C3411F04F175007D3666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FD9C3421F04F175007D3666 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FD9C3431F04F18A007D3666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0FD9C3441F04F18A007D3666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FD9C3451F04F18A007D3666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FD9C3461F04F18A007D3666 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0FD9C3471F04F196007D3666 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0FD9C3481F04F196007D3666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0FD9C3491F04F196007D3666 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0FD9C34A1F04F196007D3666 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7F9211873C65FFF200F74964 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FD9C3531F05041B007D3666 /* BSGridCollectionViewLayout.framework */,
+				0FD9C3541F05041B007D3666 /* BSImagePicker.framework */,
+				0FD9C3551F05041B007D3666 /* Cent.framework */,
+				0FD9C3561F05041B007D3666 /* Dollar.framework */,
+				0FD9C3571F05041B007D3666 /* INTULocationManager.framework */,
+				0FD9C3581F05041B007D3666 /* KeychainAccess.framework */,
+				0FD9C3591F05041B007D3666 /* Kingfisher.framework */,
+				0FD9C35A1F05041B007D3666 /* ObjectMapper.framework */,
+				0FD9C35B1F05041B007D3666 /* RxBlocking.framework */,
+				0FD9C35C1F05041B007D3666 /* RxCocoa.framework */,
+				0FD9C35D1F05041B007D3666 /* RxSwift.framework */,
+				0FD9C35E1F05041B007D3666 /* SnapKit.framework */,
+				0FD9C35F1F05041B007D3666 /* SVProgressHUD.framework */,
+				0FD9C3601F05041B007D3666 /* SwiftyJSON.framework */,
+				0FD9C3611F05041B007D3666 /* TSVoiceConverter.framework */,
+				0FD9C3621F05041B007D3666 /* UIColor_Hex_Swift.framework */,
+				0FD9C3631F05041B007D3666 /* UIImageViewModeScaleAspect.framework */,
+				0FD9C3641F05041B007D3666 /* XCGLogger.framework */,
+				0FD9C3651F05041B007D3666 /* XLActionController.framework */,
+				0FD9C3661F05041B007D3666 /* YYText.framework */,
+				0FD9C3511F05040F007D3666 /* Alamofire.framework */,
+				0FD9C34F1F0500AD007D3666 /* TimedSilver.framework */,
+				34656C71F27B432FDE66D631 /* Pods_WeChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E967C7C3FB478C5B6E90213B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9DA479E2F701164CFAE4F6A /* Pods-WeChat.debug.xcconfig */,
+				C77A03C288BDE9008263F2CD /* Pods-WeChat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,9 +442,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F985E311F03E1320082C3AA /* Build configuration list for PBXNativeTarget "WeChat" */;
 			buildPhases = (
+				D96BFB90A316036DEC72D9B2 /* [CP] Check Pods Manifest.lock */,
 				0F985E051F03E1320082C3AA /* Sources */,
 				0F985E061F03E1320082C3AA /* Frameworks */,
 				0F985E071F03E1320082C3AA /* Resources */,
+				F150AF0F291E8ED7D5AC7B3E /* [CP] Embed Pods Frameworks */,
+				A90DC1EE2BAA2EE482AFBA95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -430,33 +549,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F985E921F03FA950082C3AA /* storyboards-osx-swift3.stencil in Resources */,
-				0F985E8D1F03FA950082C3AA /* images-swift3.stencil in Resources */,
-				0F985E861F03FA950082C3AA /* colors-swift3.stencil in Resources */,
-				0F985E8B1F03FA950082C3AA /* images-dot-syntax-swift3.stencil in Resources */,
-				0F985E9B1F03FA950082C3AA /* strings-swift3.stencil in Resources */,
-				0F985E951F03FA950082C3AA /* strings-default.stencil in Resources */,
-				0F985E981F03FA950082C3AA /* strings-genstrings.stencil in Resources */,
-				0F985E821F03FA950082C3AA /* LICENSE in Resources */,
-				0F985E961F03FA950082C3AA /* strings-dot-syntax-swift3.stencil in Resources */,
-				0F985E901F03FA950082C3AA /* storyboards-osx-default.stencil in Resources */,
-				0F985E8C1F03FA950082C3AA /* images-dot-syntax.stencil in Resources */,
+				0FD9C3361F04DCC3007D3666 /* Media.xcassets in Resources */,
 				0F985E141F03E1320082C3AA /* Assets.xcassets in Resources */,
-				0F985E881F03FA950082C3AA /* fonts-swift3.stencil in Resources */,
-				0F985E8A1F03FA950082C3AA /* images-default.stencil in Resources */,
-				0F985E841F03FA950082C3AA /* colors-default.stencil in Resources */,
-				0F985E971F03FA950082C3AA /* strings-dot-syntax.stencil in Resources */,
-				0F985E891F03FA950082C3AA /* images-allvalues.stencil in Resources */,
-				0F985E9A1F03FA950082C3AA /* strings-structured.stencil in Resources */,
-				0F985E851F03FA950082C3AA /* colors-rawValue.stencil in Resources */,
-				0F985E871F03FA950082C3AA /* fonts-default.stencil in Resources */,
-				0F985E941F03FA950082C3AA /* storyboards-uppercase.stencil in Resources */,
-				0F985E931F03FA950082C3AA /* storyboards-swift3.stencil in Resources */,
-				0F985E8F1F03FA950082C3AA /* storyboards-lowercase.stencil in Resources */,
-				0F985E6F1F03FA950082C3AA /* swiftgen in Resources */,
-				0F985E8E1F03FA950082C3AA /* storyboards-default.stencil in Resources */,
-				0F985E911F03FA950082C3AA /* storyboards-osx-lowercase.stencil in Resources */,
-				0F985E991F03FA950082C3AA /* strings-no-comments-swift3.stencil in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,14 +570,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A90DC1EE2BAA2EE482AFBA95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChat/Pods-WeChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D96BFB90A316036DEC72D9B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F150AF0F291E8ED7D5AC7B3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChat/Pods-WeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0F985E051F03E1320082C3AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FD9C34C1F04F21A007D3666 /* ZZWeChatViewController.swift in Sources */,
 				0F985E0D1F03E1320082C3AA /* AppDelegate.swift in Sources */,
-				0F985E701F03FA950082C3AA /* CHANGELOG.md in Sources */,
-				0F985E831F03FA950082C3AA /* README.md in Sources */,
+				0FD9C34E1F04F63F007D3666 /* ZZUIColor+WeChat.swift in Sources */,
+				0FD9C3331F04DBCC007D3666 /* ZZUIImage+Wechat.swift in Sources */,
 				0F985E3C1F03E3CF0082C3AA /* ZZTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,12 +760,17 @@
 		};
 		0F985E321F03E1320082C3AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DA479E2F701164CFAE4F6A /* Pods-WeChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9AH4A4F7A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WeChat/Vendors/swiftgen/lib",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/INTULocationManager",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SVProgressHUD",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/UIImageViewModeScaleAspect",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YYText",
 				);
 				INFOPLIST_FILE = WeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -639,12 +787,17 @@
 		};
 		0F985E331F03E1320082C3AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77A03C288BDE9008263F2CD /* Pods-WeChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9AH4A4F7A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/WeChat/Vendors/swiftgen/lib",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/INTULocationManager",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SVProgressHUD",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/UIImageViewModeScaleAspect",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/YYText",
 				);
 				INFOPLIST_FILE = WeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
