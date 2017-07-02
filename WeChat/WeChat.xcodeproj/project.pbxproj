@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F920C9A1F08A5A000DD911C /* ZZContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F920C991F08A5A000DD911C /* ZZContactsViewController.swift */; };
+		0F920C9C1F08A5D600DD911C /* ZZDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F920C9B1F08A5D600DD911C /* ZZDiscoverViewController.swift */; };
+		0F920C9E1F08A5F900DD911C /* ZZMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F920C9D1F08A5F900DD911C /* ZZMeViewController.swift */; };
 		0F985E0D1F03E1320082C3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E0C1F03E1320082C3AA /* AppDelegate.swift */; };
 		0F985E141F03E1320082C3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E131F03E1320082C3AA /* Assets.xcassets */; };
 		0F985E221F03E1320082C3AA /* WeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E211F03E1320082C3AA /* WeChatTests.swift */; };
@@ -59,6 +62,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F920C991F08A5A000DD911C /* ZZContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZContactsViewController.swift; sourceTree = "<group>"; };
+		0F920C9B1F08A5D600DD911C /* ZZDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZDiscoverViewController.swift; sourceTree = "<group>"; };
+		0F920C9D1F08A5F900DD911C /* ZZMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZMeViewController.swift; sourceTree = "<group>"; };
 		0F985E091F03E1320082C3AA /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F985E0C1F03E1320082C3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F985E131F03E1320082C3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
@@ -315,6 +321,7 @@
 		0FD9C33F1F04F175007D3666 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0F920C991F08A5A000DD911C /* ZZContactsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -343,6 +350,7 @@
 		0FD9C3431F04F18A007D3666 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0F920C9B1F08A5D600DD911C /* ZZDiscoverViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -371,6 +379,7 @@
 		0FD9C3471F04F196007D3666 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0F920C9D1F08A5F900DD911C /* ZZMeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -623,7 +632,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F920C9E1F08A5F900DD911C /* ZZMeViewController.swift in Sources */,
+				0F920C9C1F08A5D600DD911C /* ZZDiscoverViewController.swift in Sources */,
 				0FD9C34C1F04F21A007D3666 /* ZZWeChatViewController.swift in Sources */,
+				0F920C9A1F08A5A000DD911C /* ZZContactsViewController.swift in Sources */,
 				0F985E0D1F03E1320082C3AA /* AppDelegate.swift in Sources */,
 				0FD9C34E1F04F63F007D3666 /* ZZUIColor+WeChat.swift in Sources */,
 				0FD9C3331F04DBCC007D3666 /* ZZUIImage+Wechat.swift in Sources */,
@@ -763,6 +775,7 @@
 			baseConfigurationReference = C9DA479E2F701164CFAE4F6A /* Pods-WeChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Z9AH4A4F7A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -790,6 +803,7 @@
 			baseConfigurationReference = C77A03C288BDE9008263F2CD /* Pods-WeChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Z9AH4A4F7A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

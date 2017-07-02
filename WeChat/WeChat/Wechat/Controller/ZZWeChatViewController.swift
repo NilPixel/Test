@@ -13,6 +13,7 @@ class ZZWeChatViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.viewBackgroundColor
+        self.title = "微信"
     }
 
     override func didReceiveMemoryWarning() {
