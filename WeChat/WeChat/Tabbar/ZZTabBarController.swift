@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Cent
 
 class ZZTabBarController: UITabBarController {
 
@@ -16,7 +17,7 @@ class ZZTabBarController: UITabBarController {
     }
 
     func initViewControllers() {
-        let titleArray = ["微信","通讯录","发现","我"]
+        let titleArray = ["微信", "通讯录", "发现", "我"]
         
         let normalImageArray = [ZZAsset.tabBar_weChat_n.image,
                                 ZZAsset.tabBar_contacts_n.image,
@@ -34,14 +35,15 @@ class ZZTabBarController: UITabBarController {
                                    ZZMeViewController()]
         
         let naviVCArray = NSMutableArray()
-        for (index,controller) in viewControllerArray.enumerated() {
+        
+        for (index, controller) in viewControllerArray.enumerated() {
             
             //设置tabbar标题
             controller.tabBarItem!.title = titleArray[index]
             
             //设置图标
             controller.tabBarItem!.image = normalImageArray[index]
-            controller.tabBarItem.selectedImage = selectedImagesArray[index]
+            controller.tabBarItem!.selectedImage = selectedImagesArray[index]
             
             //设置字体颜色
             controller.tabBarItem!.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.lightGray], for: UIControlState())

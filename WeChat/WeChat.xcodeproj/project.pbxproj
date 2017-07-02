@@ -10,6 +10,8 @@
 		0F920C9A1F08A5A000DD911C /* ZZContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F920C991F08A5A000DD911C /* ZZContactsViewController.swift */; };
 		0F920C9C1F08A5D600DD911C /* ZZDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F920C9B1F08A5D600DD911C /* ZZDiscoverViewController.swift */; };
 		0F920C9E1F08A5F900DD911C /* ZZMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F920C9D1F08A5F900DD911C /* ZZMeViewController.swift */; };
+		0F920CA21F0939A500DD911C /* ZZWeChatMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F920CA11F0939A500DD911C /* ZZWeChatMessageModel.swift */; };
+		0F920CA41F093D8900DD911C /* ZZWeChatMessageEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F920CA31F093D8900DD911C /* ZZWeChatMessageEnum.swift */; };
 		0F985E0D1F03E1320082C3AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E0C1F03E1320082C3AA /* AppDelegate.swift */; };
 		0F985E141F03E1320082C3AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F985E131F03E1320082C3AA /* Assets.xcassets */; };
 		0F985E221F03E1320082C3AA /* WeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E211F03E1320082C3AA /* WeChatTests.swift */; };
@@ -19,28 +21,6 @@
 		0FD9C3361F04DCC3007D3666 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD9C3351F04DCC3007D3666 /* Media.xcassets */; };
 		0FD9C34C1F04F21A007D3666 /* ZZWeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9C34B1F04F21A007D3666 /* ZZWeChatViewController.swift */; };
 		0FD9C34E1F04F63F007D3666 /* ZZUIColor+WeChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9C34D1F04F63F007D3666 /* ZZUIColor+WeChat.swift */; };
-		0FD9C3501F0500AD007D3666 /* TimedSilver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C34F1F0500AD007D3666 /* TimedSilver.framework */; };
-		0FD9C3521F05040F007D3666 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3511F05040F007D3666 /* Alamofire.framework */; };
-		0FD9C3671F05041B007D3666 /* BSGridCollectionViewLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3531F05041B007D3666 /* BSGridCollectionViewLayout.framework */; };
-		0FD9C3681F05041B007D3666 /* BSImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3541F05041B007D3666 /* BSImagePicker.framework */; };
-		0FD9C3691F05041B007D3666 /* Cent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3551F05041B007D3666 /* Cent.framework */; };
-		0FD9C36A1F05041B007D3666 /* Dollar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3561F05041B007D3666 /* Dollar.framework */; };
-		0FD9C36B1F05041B007D3666 /* INTULocationManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3571F05041B007D3666 /* INTULocationManager.framework */; };
-		0FD9C36C1F05041B007D3666 /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3581F05041B007D3666 /* KeychainAccess.framework */; };
-		0FD9C36D1F05041B007D3666 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3591F05041B007D3666 /* Kingfisher.framework */; };
-		0FD9C36E1F05041B007D3666 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35A1F05041B007D3666 /* ObjectMapper.framework */; };
-		0FD9C36F1F05041B007D3666 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35B1F05041B007D3666 /* RxBlocking.framework */; };
-		0FD9C3701F05041B007D3666 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35C1F05041B007D3666 /* RxCocoa.framework */; };
-		0FD9C3711F05041B007D3666 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35D1F05041B007D3666 /* RxSwift.framework */; };
-		0FD9C3721F05041B007D3666 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35E1F05041B007D3666 /* SnapKit.framework */; };
-		0FD9C3731F05041B007D3666 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C35F1F05041B007D3666 /* SVProgressHUD.framework */; };
-		0FD9C3741F05041B007D3666 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3601F05041B007D3666 /* SwiftyJSON.framework */; };
-		0FD9C3751F05041B007D3666 /* TSVoiceConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3611F05041B007D3666 /* TSVoiceConverter.framework */; };
-		0FD9C3761F05041B007D3666 /* UIColor_Hex_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3621F05041B007D3666 /* UIColor_Hex_Swift.framework */; };
-		0FD9C3771F05041B007D3666 /* UIImageViewModeScaleAspect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3631F05041B007D3666 /* UIImageViewModeScaleAspect.framework */; };
-		0FD9C3781F05041B007D3666 /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3641F05041B007D3666 /* XCGLogger.framework */; };
-		0FD9C3791F05041B007D3666 /* XLActionController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3651F05041B007D3666 /* XLActionController.framework */; };
-		0FD9C37A1F05041B007D3666 /* YYText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD9C3661F05041B007D3666 /* YYText.framework */; };
 		F6475B15F4168E709ABC5907 /* Pods_WeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34656C71F27B432FDE66D631 /* Pods_WeChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +45,9 @@
 		0F920C991F08A5A000DD911C /* ZZContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZContactsViewController.swift; sourceTree = "<group>"; };
 		0F920C9B1F08A5D600DD911C /* ZZDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZDiscoverViewController.swift; sourceTree = "<group>"; };
 		0F920C9D1F08A5F900DD911C /* ZZMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZMeViewController.swift; sourceTree = "<group>"; };
+		0F920C9F1F08B64500DD911C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F920CA11F0939A500DD911C /* ZZWeChatMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZWeChatMessageModel.swift; sourceTree = "<group>"; };
+		0F920CA31F093D8900DD911C /* ZZWeChatMessageEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZWeChatMessageEnum.swift; sourceTree = "<group>"; };
 		0F985E091F03E1320082C3AA /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F985E0C1F03E1320082C3AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F985E131F03E1320082C3AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
@@ -112,28 +95,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD9C3671F05041B007D3666 /* BSGridCollectionViewLayout.framework in Frameworks */,
-				0FD9C3681F05041B007D3666 /* BSImagePicker.framework in Frameworks */,
-				0FD9C3691F05041B007D3666 /* Cent.framework in Frameworks */,
-				0FD9C36A1F05041B007D3666 /* Dollar.framework in Frameworks */,
-				0FD9C36B1F05041B007D3666 /* INTULocationManager.framework in Frameworks */,
-				0FD9C36C1F05041B007D3666 /* KeychainAccess.framework in Frameworks */,
-				0FD9C36D1F05041B007D3666 /* Kingfisher.framework in Frameworks */,
-				0FD9C36E1F05041B007D3666 /* ObjectMapper.framework in Frameworks */,
-				0FD9C36F1F05041B007D3666 /* RxBlocking.framework in Frameworks */,
-				0FD9C3701F05041B007D3666 /* RxCocoa.framework in Frameworks */,
-				0FD9C3711F05041B007D3666 /* RxSwift.framework in Frameworks */,
-				0FD9C3721F05041B007D3666 /* SnapKit.framework in Frameworks */,
-				0FD9C3731F05041B007D3666 /* SVProgressHUD.framework in Frameworks */,
-				0FD9C3741F05041B007D3666 /* SwiftyJSON.framework in Frameworks */,
-				0FD9C3751F05041B007D3666 /* TSVoiceConverter.framework in Frameworks */,
-				0FD9C3761F05041B007D3666 /* UIColor_Hex_Swift.framework in Frameworks */,
-				0FD9C3771F05041B007D3666 /* UIImageViewModeScaleAspect.framework in Frameworks */,
-				0FD9C3781F05041B007D3666 /* XCGLogger.framework in Frameworks */,
-				0FD9C3791F05041B007D3666 /* XLActionController.framework in Frameworks */,
-				0FD9C37A1F05041B007D3666 /* YYText.framework in Frameworks */,
-				0FD9C3521F05040F007D3666 /* Alamofire.framework in Frameworks */,
-				0FD9C3501F0500AD007D3666 /* TimedSilver.framework in Frameworks */,
 				F6475B15F4168E709ABC5907 /* Pods_WeChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +253,8 @@
 		0FD9C33B1F04F145007D3666 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0F920CA11F0939A500DD911C /* ZZWeChatMessageModel.swift */,
+				0F920CA31F093D8900DD911C /* ZZWeChatMessageEnum.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -408,6 +371,7 @@
 		7F9211873C65FFF200F74964 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F920C9F1F08B64500DD911C /* UIKit.framework */,
 				0FD9C3531F05041B007D3666 /* BSGridCollectionViewLayout.framework */,
 				0FD9C3541F05041B007D3666 /* BSImagePicker.framework */,
 				0FD9C3551F05041B007D3666 /* Cent.framework */,
@@ -635,6 +599,8 @@
 				0F920C9E1F08A5F900DD911C /* ZZMeViewController.swift in Sources */,
 				0F920C9C1F08A5D600DD911C /* ZZDiscoverViewController.swift in Sources */,
 				0FD9C34C1F04F21A007D3666 /* ZZWeChatViewController.swift in Sources */,
+				0F920CA21F0939A500DD911C /* ZZWeChatMessageModel.swift in Sources */,
+				0F920CA41F093D8900DD911C /* ZZWeChatMessageEnum.swift in Sources */,
 				0F920C9A1F08A5A000DD911C /* ZZContactsViewController.swift in Sources */,
 				0F985E0D1F03E1320082C3AA /* AppDelegate.swift in Sources */,
 				0FD9C34E1F04F63F007D3666 /* ZZUIColor+WeChat.swift in Sources */,

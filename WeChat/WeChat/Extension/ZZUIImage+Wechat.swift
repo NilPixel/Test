@@ -25,6 +25,8 @@ extension UIImage {
         case tabBar_badge = "tabBar_badge"
         case tabBar_bg = "tabBar_bg"
         
+        case icon_avatar = "icon_avatar"
+        
         var image: UIImage {
             return UIImage(asset: self)
         }
