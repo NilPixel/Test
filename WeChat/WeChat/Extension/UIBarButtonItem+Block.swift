@@ -14,10 +14,12 @@ public typealias ActionHandler = (Void) -> Void
 
 public extension UIViewController {
     
+    //一个传入闭包，闭包内可以捕获点击回调事件
     func leftBackAction(_ action:@escaping ActionHandler) {
         self.leftBackBarButton(ZZAsset.back_icon.image, action: action)
     }
     
+    //返回上一个界面，无点击回调事件
     func leftBackToPrevious() {
         self.leftBackBarButton(ZZAsset.back_icon.image, action: nil)
     }
@@ -39,7 +41,7 @@ public extension UIViewController {
         button.ngl_addAction(forControlEvents: .touchUpInside, withCallBack: {[weak self] in
             if action != nil {
                 action()
-                return
+                return//这个return有点疑惑，难道有闭包回调事件的话就不反回上一个界面了
             }
             
             if self!.navigationController!.viewControllers.count > 1 {
@@ -54,6 +56,7 @@ public extension UIViewController {
 
 var AssociatedClosure: UInt8 = 0
 
+//给button的父类添加一个用闭包回调点击事件的扩展
 extension UIControl {
     fileprivate func ngl_addAction(forControlEvents events: UIControlEvents, withCallBack callBack: @escaping (Void) -> Void) {
         let wrapper = ClosureWarpper(callBack: callBack)
@@ -62,6 +65,7 @@ extension UIControl {
     }
 }
 
+//定义一个闭包工具类，用来产生并调用闭包
 open class ClosureWarpper: NSObject {
     let _callBack: (Void) -> Void
     init(callBack: @escaping (Void) -> Void) {
