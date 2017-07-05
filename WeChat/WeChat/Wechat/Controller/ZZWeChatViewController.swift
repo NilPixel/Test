@@ -9,7 +9,10 @@
 import UIKit
 
 class ZZWeChatViewController: UIViewController {
-
+    var messageTable: UITableView!//列表
+    fileprivate var dataSource = [ZZWeChatMessageModel]()//数据源
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.viewBackgroundColor

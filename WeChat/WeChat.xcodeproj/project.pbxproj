@@ -17,6 +17,7 @@
 		0F985E221F03E1320082C3AA /* WeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E211F03E1320082C3AA /* WeChatTests.swift */; };
 		0F985E2D1F03E1320082C3AA /* WeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E2C1F03E1320082C3AA /* WeChatUITests.swift */; };
 		0F985E3C1F03E3CF0082C3AA /* ZZTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F985E3B1F03E3CF0082C3AA /* ZZTabBarController.swift */; };
+		0FC401701F0B469D001E84F4 /* UIBarButtonItem+Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC4016F1F0B469D001E84F4 /* UIBarButtonItem+Block.swift */; };
 		0FD9C3331F04DBCC007D3666 /* ZZUIImage+Wechat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9C3321F04DBCC007D3666 /* ZZUIImage+Wechat.swift */; };
 		0FD9C3361F04DCC3007D3666 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD9C3351F04DCC3007D3666 /* Media.xcassets */; };
 		0FD9C34C1F04F21A007D3666 /* ZZWeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD9C34B1F04F21A007D3666 /* ZZWeChatViewController.swift */; };
@@ -59,6 +60,7 @@
 		0F985E2C1F03E1320082C3AA /* WeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatUITests.swift; sourceTree = "<group>"; };
 		0F985E2E1F03E1320082C3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F985E3B1F03E3CF0082C3AA /* ZZTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZTabBarController.swift; sourceTree = "<group>"; };
+		0FC4016F1F0B469D001E84F4 /* UIBarButtonItem+Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Block.swift"; sourceTree = "<group>"; };
 		0FD9C3321F04DBCC007D3666 /* ZZUIImage+Wechat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ZZUIImage+Wechat.swift"; sourceTree = "<group>"; };
 		0FD9C3351F04DCC3007D3666 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		0FD9C34B1F04F21A007D3666 /* ZZWeChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZWeChatViewController.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 			children = (
 				0FD9C3321F04DBCC007D3666 /* ZZUIImage+Wechat.swift */,
 				0FD9C34D1F04F63F007D3666 /* ZZUIColor+WeChat.swift */,
+				0FC4016F1F0B469D001E84F4 /* UIBarButtonItem+Block.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -603,6 +606,7 @@
 				0F920CA41F093D8900DD911C /* ZZWeChatMessageEnum.swift in Sources */,
 				0F920C9A1F08A5A000DD911C /* ZZContactsViewController.swift in Sources */,
 				0F985E0D1F03E1320082C3AA /* AppDelegate.swift in Sources */,
+				0FC401701F0B469D001E84F4 /* UIBarButtonItem+Block.swift in Sources */,
 				0FD9C34E1F04F63F007D3666 /* ZZUIColor+WeChat.swift in Sources */,
 				0FD9C3331F04DBCC007D3666 /* ZZUIImage+Wechat.swift in Sources */,
 				0F985E3C1F03E3CF0082C3AA /* ZZTabBarController.swift in Sources */,
